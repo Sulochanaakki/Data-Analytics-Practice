@@ -105,7 +105,7 @@ USE lco_users;
  SELECT email,login_count,signup_month from students
  WHERE signup_month BETWEEN 7 AND 10;
 
--- TODO:CASE
+-- TODO:CASEss
 SELECT stu_fname,signup_month,
    CASE
       WHEN signup_month BETWEEN 7 AND 10 THEN 'early bird'
